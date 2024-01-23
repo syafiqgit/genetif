@@ -20,15 +20,17 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('/src/assets/hero-background.jpg')",
+        aboutUs: "url('/src/assets/screen-3.jpg')"
       },
       fontFamily: {
-        Inter: "Inter, sans-serif"
+        poppins: 'Poppins, sans-serif',
       },
       colors: {
         color_1: "#030637",
         color_2: "#3C0753",
         color_3: "#720455",
         color_4: "#910A67",
+        color_5: "#F6B17A",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

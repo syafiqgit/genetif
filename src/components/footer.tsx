@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-2 lg:grid-cols-3">
           <div>
             <div className="text-teal-600 dark:text-teal-300">
-              <img src={logo2} alt="" className="w-44"/>
+              <img src={logo2} alt="" className="w-44" />
             </div>
             <p className="mt-4 max-w-xs text-slate-500">
-              Media agency is important information and enchancing user
+              Genetif is important information and enchancing user
               experience on your website
             </p>
             <ul className="mt-8 flex gap-6">
@@ -115,6 +115,14 @@ export default function Footer() {
                     className="transition hover:opacity-75 text-slate-500"
                   >
                     Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="transition hover:opacity-75 text-slate-500"
+                  >
+                    About us
                   </a>
                 </li>
                 <li>

@@ -10,8 +10,8 @@ import {
 
 export default function Navbar() {
   return (
-    <header className="w-full md:px-10 px-5 py-5 bg-color_2 fixed top-0 shadow-md">
-      <nav className="flex justify-between items-center">
+    <header className="w-full lg:px-10 md:px-5 px-5 py-5 bg-color_2 fixed top-0 shadow-md">
+      <nav className="flex justify-between items-center ">
         <Link to="/">
           <img src={logo2} alt="" className="lg:w-44 md:w-40 w-32" />
         </Link>
@@ -20,6 +20,13 @@ export default function Navbar() {
             <div className="text-white lg:text-lg">
               <p className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
                 Home
+              </p>
+            </div>
+          </Link>
+          <Link to="/about-us">
+            <div className="text-white lg:text-lg">
+              <p className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+                About us
               </p>
             </div>
           </Link>
@@ -55,16 +62,21 @@ export default function Navbar() {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <div className="md:hidden">
-              <i className="fa-solid fa-bars fa-2xl" style={{color: "#3B82F6"}}></i>
+              <i
+                className="fa-solid fa-bars fa-2xl"
+                style={{ color: "#3B82F6" }}
+              ></i>
             </div>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="bg-color_2 text-white ">
+            <DropdownMenuItem>About us</DropdownMenuItem>
+            <DropdownMenuSeparator />
             <DropdownMenuItem>Services</DropdownMenuItem>
-            <DropdownMenuSeparator/>
+            <DropdownMenuSeparator />
             <DropdownMenuItem>Works</DropdownMenuItem>
-            <DropdownMenuSeparator/>
+            <DropdownMenuSeparator />
             <DropdownMenuItem>Blogs</DropdownMenuItem>
-            <DropdownMenuSeparator/>
+            <DropdownMenuSeparator />
             <DropdownMenuItem>Contacts</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
