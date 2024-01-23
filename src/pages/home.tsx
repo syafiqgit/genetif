@@ -9,8 +9,8 @@ function Home() {
       <section className="w-full" id="hero">
         <div className="w-full bg-hero bg-cover lg:h-screen bg-fixed bg-center">
           <div className="lg:flex justify-center items-center gap-14 pt-32">
-            <div className="flex flex-col md:gap-10 gap-7 lg:mb-0 md:mb-12 mb-8 cursor-default">
-              <h1 className="md:text-4xl text-xl lg:text-start text-center text-white font-bold md:w-[30rem] w-[20rem] lg:mx-0 mx-auto tracking-wide leading-snug">
+            <div className="flex flex-col gap-7 lg:mb-0 md:mb-12 mb-8 cursor-default">
+              <h1 className="md:text-4xl text-xl lg:text-start text-center text-color_5 font-bold md:w-[30rem] w-[20rem] lg:mx-0 mx-auto tracking-wide">
                 Grow & Expand your business with us
               </h1>
               <p className="md:text-lg text-base text-white lg:text-justify text-center lg:mx-0 mx-auto md:w-[37rem] w-[20rem]">
