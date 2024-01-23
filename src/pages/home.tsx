@@ -7,7 +7,7 @@ function Home() {
   return (
     <Layout>
       <section className="w-full" id="hero">
-        <div className="w-full bg-hero bg-cover bg-fixed bg-center">
+        <div className="w-full bg-hero bg-cover bg-fixed bg-center pb-5">
           <div className="lg:flex justify-center items-center gap-14 pt-32">
             <div className="flex flex-col gap-7 lg:mb-0 md:mb-12 mb-8 cursor-default">
               <h1 className="md:text-4xl text-xl lg:text-start text-center text-color_5 font-bold md:w-[30rem] w-[20rem] lg:mx-0 mx-auto tracking-wide">
