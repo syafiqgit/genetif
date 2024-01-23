@@ -9,9 +9,9 @@ interface Props {
 export default function Layout(props: Props) {
   const { children } = props;
   return (
-    <div className="w-full flex flex-col overflow-auto font-Inter">
+    <div className="w-full flex flex-col overflow-auto font-poppins">
       <Navbar />
-      <div className="w-full grow h-screen">{children}</div>
+      <div className="w-full grow">{children}</div>
       <Footer />
     </div>
   );
